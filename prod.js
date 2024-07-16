@@ -29,5 +29,7 @@ const ROUTER_BASE_PATH = process.env.ROUTER_BASE_PATH || ''
 
 console.log(process.env.NODE_ENV, 'Config', CONFIG_PATH, METADATA_PATH)
 
+// Comment
+
 const Server = new server(SOURCE, PORT, HOST, CONFIG_PATH, METADATA_PATH, ROUTER_BASE_PATH)
 Server.start()
